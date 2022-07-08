@@ -27,4 +27,8 @@ docker build . -t my_image
 ```sh
 docker container run -p 8000:8000 my_image
 # or if you want to use the image built during the masterclass
-docker container run -p 8000:8000
+docker container run -p 8000:8000 datascientest/demo_ge
+```
+
+Once run, the API is available at `http://0.0.0.0:8000`. The documentation is available at `http://0.0.0.0:8000/docs`. If you have used the virtual machine, the API is available at `http://X.X.X.X:8000/` and the documentation at `http://X.X.X.X:8000/docs` (you need to replace `X.X.X.X` by the IP address of your machine).
+
