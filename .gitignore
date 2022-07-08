@@ -1,7 +1,2 @@
 api/venv
 __pycache__
-ludwig/
-ludwig/*.csv
-!ludwig/rotten_tomatoes.csv
-!ludwig/rotten_tomatoes.yml
-!ludwig/commands.sh
